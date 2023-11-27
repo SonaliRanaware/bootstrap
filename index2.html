@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <title>Ekart product</title>
+    <style>
+        .box
+        {
+          border-style: solid;
+          height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           <div class="col-md-12 mt-3">
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><strong>Ekart</strong></a>
+                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">Aboutk</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="logout.html">logout</a>
+                      </li>
+                     <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>-->
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+           </div><!-- end of header here-->
+
+        </div>
+  
+    <div class="row">
+        <div class="col-md-3 mt-5">
+            <hr>
+           <h5>Filter by  category</h5>
+           <p><a href="#" class="anchor">All</a></p>
+           <p><a href="#" class="anchor">By Model</a></p>
+           <p><a href="#" class="anchor">By Cloths</a></p>
+           <p><a href="#" class="anchor">By  shoes</a></p>
+
+           <hr>
+           <h5>Filter by  price</h5>
+           <form method="GET" action="#">
+            <div class="mb-3">
+                <label for="Input1" class="form-label"><strong>MIN:</strong></label>
+                <input type="number" class="form-control"  name="min" id="Input1" placeholder="min value">
+    
+            </div>
+
+
+            <div class="mb-3">
+                <label for="Input2" class="form-label"><strong>MAX:</strong></label>
+                <input type="number" class="form-control"  name="max" id="Input1" placeholder="max value">
+    
+            </div>
+
+            <div class="mb-3">
+                <input type="submit" class="btn btn-danger" value="Search">
+               
+               </form>
+                </div>
+           </form>
+           <hr>
+            <h5>Sort By price</h5>   
+            <hr>
+            <p><a href="#" class="anchor">High to Low</a> </p>
+            <p><a href="#" class="anchor">Low to High</a> </p>
+        </div><!-- end of slider here-->
+         <div class="col-md-9 mt-4 bg-light p-3" >
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product1</h5>
+                      <p class="card-text">Product 1 <details></details></p>
+                      <a href="#" class="btn btn-primary"> See Details</a>
+                    </div>
+                  </div>
+
+            </div>
+            <!--product 1-->
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product 2</h5>
+                      <p class="card-text">Product 2 <details></details></p>
+                      <a href="#" class="btn btn-primary"> See Details</a>
+                    </div>
+                  </div>
+                  </div>
+<!--product 2-->
+
+<div class="col-md-3">
+    <div class="card" style="width: 100%;">
+        <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Product 3</h5>
+          <p class="card-text">Product 3 <details></details></p>
+          <a href="#" class="btn btn-primary"> See Details</a>
+        </div>
+      </div>
+      </div>
+      <!--product 3-->
+
+      <div class="col-md-3">
+        <div class="card" style="width: 100%;">
+            <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Product 4</h5>
+              <p class="card-text">Product 4 <details></details></p>
+              <a href="#" class="btn btn-primary"> See Details</a>
+            </div>
+          </div>
+          </div>
+          <!--product 4-->
+            </div>
+          
+            <div class="col-md-9 mt-4 bg-light p-3" >
+                <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 100%;">
+                    <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product 4</h5>
+                      <p class="card-text">Product 4 <details></details></p>
+                      <a href="#" class="btn btn-primary"> See Details</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Product 4</h5>
+                          <p class="card-text">Product 4 <details></details></p>
+                          <a href="#" class="btn btn-primary"> See Details</a>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Product 4</h5>
+                              <p class="card-text">Product 4 <details></details></p>
+                              <a href="#" class="btn btn-primary"> See Details</a>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="card" style="width: 100%;">
+                                <img src="assest/images/product1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Product 4</h5>
+                                  <p class="card-text">Product 4 <details></details></p>
+                                  <a href="#" class="btn btn-primary"> See Details</a>
+                                </div>
+                              </div>
+                              </div>
+
+
+        </div>
+        </div><!--product list 1 end -->
+       
+                  
+     </div>
+
+    
+    
+     </div>
+     <div class="row p-3">
+        <div class="col-md-4  bg-secondary-subtle p-3">
+            2nd floor,Landmark building,<br>
+            Near FC college,<br>
+            pune-411002,<br>
+            Maharatra,<br>
+            Contact:12132323
+            </div>
+        <div class="col-md-4  bg-secondary-subtle p-3">
+            <h5> Quick Links</h5>
+            <hr>
+             <a href="index.html" class="anchor"><strong>Home</strong></a><br>
+             <a href="contact.html" class="anchor"><strong>contact</strong></a><br>
+             <a href="about.html" class="anchor"><strong>About</strong></a><br>
+        </div>
+         <div class="col-md-4  bg-secondary-subtle p-3">
+                 <h5>Connect Us</h5>
+                 <hr>
+                <a href="http://www.facebook.com" target="_blank"></a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+
+             
+        </div>
+        
+     </div>
+
+
+ </div>
+    <script src="assest/js/bootstrap.min.js"></script>
+    <script src="assest/js/propper.js"></script>
+</body>
+</html>
